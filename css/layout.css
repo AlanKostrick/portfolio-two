@@ -1,0 +1,31 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px auto auto auto 100px;
+}
+
+.grid-item {
+ 
+}
+
+.header {
+	grid-column: 1/-1;
+}
+
+.header p{
+	display: flex;
+	align-items: center;
+}
+
+.topnav{
+	display: flex;
+}
+
+.hero {
+	grid-column: 1/-1;
+}
+
+
+.footer {
+	grid-column: 1/-1;
+}
